@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+<div id="top">
+    <h1>Rock Paper Scissors</h1>
+</div>
+<div class="container" id="left">
+    <div class="game" id="user">
+        <h3>Your choice</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail" id="rockdiv">
+                    <img id="rock"  src="rock.jpg">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" id="paperdiv">
+                    <img id="paper" src="paper.jpg">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" id="scissorsdiv">
+                    <img id="scissors" src="scissors.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="game" id="computer">
+        <h3>Computer</h3>
+        <div class="thumbnail">
+            <img id="computerChoice" src="QuestionMark.jpg">
+        </div>
+    </div>
+</div>
+<div class="container" id="right">
+    <h3>Result</h3>
+    <div>
+        <p id="win"></p>
+        <p id="result"></p>
+        <p id="result1"></p>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

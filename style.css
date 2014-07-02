@@ -1,0 +1,45 @@
+body {
+    background-color: #000000;
+}
+
+#top {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#left {
+    float: left;
+    width: 70%;
+    color: #FFFFFF;
+}
+
+.highlight {
+    background-color: #0000FF;
+}
+
+#user {
+    width:65%;
+    float:left;
+    padding-right: 10px;
+}
+
+#computer {
+    width: 10%;
+    float:left;
+    text-align:center;
+}
+
+#right {
+    float: right;
+    width: 30%;
+    color: #FFFFFF;
+}
+
+#win {
+    font-size: 20px;
+}
+
+#footer {
+    clear:both;
+    color: #FFFFFF;
+}
