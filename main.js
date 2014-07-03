@@ -82,57 +82,57 @@ $(document).ready(function() {
         if(userChoice === computerChoose) {
             userScore += 0;
             computerScore += 0;
-            win.innerHTML = "You tied!";
-            result.innerHTML = "Your score: " + userScore;
-            result1.innerHTML = " Computer score: " + computerScore;
+            win.innerHTML = "Unentschieden!";
+            result.innerHTML = "Deine Punkte: " + userScore;
+            result1.innerHTML = " Computers Punkte: " + computerScore;
             game = true;
         }
         else if(userChoice === 'rock' && computerChoose === 'paper') {
             userScore += 0;
             computerScore += 1;
-            win.innerHTML = "Computer wins!";
-            result.innerHTML = "Your score: " + userScore;
-            result1.innerHTML = " Computer score: " + computerScore;
+            win.innerHTML = "Computer gewinnt!";
+            result.innerHTML = "Deine Punkte: " + userScore;
+            result1.innerHTML = " Computers Punkte: " + computerScore;
             game = true;
         }
         else if(userChoice === 'rock' && computerChoose === 'scissors') {
             userScore += 1;
             computerScore += 0;
-            win.innerHTML = "You win!";
-            result.innerHTML = "Your score: " + userScore;
-            result1.innerHTML = " Computer score: " + computerScore;
+            win.innerHTML = "Du gewinnst!";
+            result.innerHTML = "Deine Punkte: " + userScore;
+            result1.innerHTML = " Computers Punkte: " + computerScore;
             game = true;
         }
         else if(userChoice === 'paper' && computerChoose === 'rock') {
             userScore += 1;
             computerScore += 0;
-            win.innerHTML = "You win!";
-            result.innerHTML = "Your score: " + userScore;
-            result1.innerHTML = " Computer score: " + computerScore;
+            win.innerHTML = "Du gewinnst!";
+            result.innerHTML = "Deine Punkte: " + userScore;
+            result1.innerHTML = " Computers Punkte: " + computerScore;
             game = true;
         }
         else if(userChoice === 'paper' && computerChoose === 'scissors') {
             userScore += 0;
             computerScore += 1;
-            win.innerHTML = "Computer wins!";
-            result.innerHTML = "Your score: " + userScore;
-            result1.innerHTML = " Computer score: " + computerScore;
+            win.innerHTML = "Computer gewinnt!";
+            result.innerHTML = "Deine Punkte: " + userScore;
+            result1.innerHTML = " Computers Punkte: " + computerScore;
             game = true;
         }
         else if(userChoice === 'scissors' && computerChoose === 'rock') {
             userScore += 0;
             computerScore += 1;
-            win.innerHTML = "Computer wins!";
-            result.innerHTML = "Your score: " + userScore;
-            result1.innerHTML = " Computer score: " + computerScore;
+            win.innerHTML = "Computer gewinnt!";
+            result.innerHTML = "Deine Punkte: " + userScore;
+            result1.innerHTML = " Computers Punkte: " + computerScore;
             game = true;
         }
         else {
             userScore += 1;
             computerScore += 0;
-            win.innerHTML = "You win!";
-            result.innerHTML = "Your score: " + userScore;
-            result1.innerHTML = " Computer score: " + computerScore;
+            win.innerHTML = "Du gewinnst!";
+            result.innerHTML = "Deine Punkte: " + userScore;
+            result1.innerHTML = " Computers Punkte: " + computerScore;
             game = true;
         }
         return game;
